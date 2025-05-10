@@ -6,6 +6,7 @@ document.getElementById('booking-form').addEventListener('submit', function (e) 
   const date = document.getElementById('date').value;
   const time = document.getElementById('time').value;
 
+
   const selectedDate = new Date(date);
   const day = selectedDate.getDay(); // 0 = Κυριακή, 6 = Σάββατο
 
